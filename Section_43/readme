@@ -1,1 +1,55 @@
 Section 43
+Basic NN Example Exercises
+Using the same code as before, please solve the following exercises:
+
+    1. Change the number of observations to 100,000 and see what happens.
+
+    2. Change the number of observations to 1,000,000 and see what happens.
+
+    3. Play around with the learning rate. Values like:
+
+    a) 0.0001 
+
+    b) 0.001
+
+    c) 0.1
+
+    d) 1 
+
+are all interesting to observe.
+
+    4. Change the loss function. L2-norm loss (without dividing by 2) is a good way to start.
+
+    5. Тry with the L1-norm loss, given by the sum of the ABSOLUTE value of yj - tj. You can check the exact formula in the respective notebook.
+
+    6. Create a function f(x,z) = 13*xs + 7*zs - 12. Does the algorithm work in the same way?
+
+   
+
+Useful tip: When you change something, don't forget to RERUN all cells. This can be done easily by clicking:
+
+Kernel -> Restart & Run All
+
+If you don't do that, your algorithm will keep the OLD values of all parameters.
+
+You can either use the file “Minimal_Example_All_Exercises” for all the exercises, without solutions, or check the solutions of each one separately in the files we have provided. We suggest that you start with the “Minimal_Example_All_Exercises” file.
+
+
+
+***
+
+
+
+Finally, to prepare for the next section, please install tensorflow-datasets (a library of public datasets ready to use in TensorFlow)
+
+Resources for this lecture
+Basic NN Example (All Exercises)
+Basic NN Example Exercise 1 Solution
+Basic NN Example Exercise 2 Solution
+Basic NN Example Exercise 3a Solution
+Basic NN Example Exercise 3b Solution
+Basic NN Example Exercise 3c Solution
+Basic NN Example Exercise 3d Solution
+Basic NN Example Exercise 4 Solution
+Basic NN Example Exercise 5 Solution
+Basic NN Example Exercise 6 Solution
